@@ -1,0 +1,15 @@
+frame,model,metric,value,notes
+A,transformer,auc,0.605,candle direction OOS
+A,transformer,accuracy,0.571,candle direction OOS
+A,lightgbm_v2,auc,0.514,candle direction OOS
+A,lightgbm_v2,accuracy,0.511,candle direction OOS
+A,ensemble,auc,0.603,weights 0.3 LGBM + 0.7 TR; OOS-tuned
+A,ensemble,accuracy,0.569,candle direction OOS
+A,ensemble_thr_0.60,accuracy,0.728,coverage 0.075
+A,futures_sim,return_pct,322.4,NOT polymarket; leverage 5x
+A,futures_sim,max_drawdown_pct,-17.4,NOT polymarket
+A,futures_sim,winrate,0.577,NOT polymarket
+B,diagnosis,example_wr,0.53,illustrative live-ish WR
+B,diagnosis,example_ask,0.55,typical entry ask band
+B,diagnosis,approx_ev_per_trade,-0.02,WR - ask
+B,live_anecdote,pnl_usd,200,NOT validated alpha
