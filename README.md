@@ -1,5 +1,8 @@
 # Polymarket BTC 5m Research
 
+[![Research Note PDF](https://img.shields.io/badge/Research%20Note-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](docs/pdf/research_note.pdf)
+[![Markdown](https://img.shields.io/badge/Research%20Note-Markdown-blue?style=for-the-badge)](docs/research_note.md)
+
 Honest research notes and code from building, deploying, and killing short-horizon crypto prediction strategies on [Polymarket](https://polymarket.com) BTC Up/Down 5-minute markets.
 
 This is a **curated public extract**, not a dump of the private lab.
@@ -16,7 +19,7 @@ Private origins (kept offline):
 
 **Bottom line:** the interesting result is not a claimed alpha. Directional models looked fine on candle OOS / futures-style simulation, but **Polymarket economics (entry ask, fees, selective fill quality) erased the edge**. Early live PnL (~$200 on a small bankroll) is treated as noise, not proof.
 
-Read the research note first: [`docs/research_note.md`](docs/research_note.md).
+Start here: **[open the PDF](docs/pdf/research_note.pdf)** · or read the [Markdown version](docs/research_note.md).
 
 ---
 
